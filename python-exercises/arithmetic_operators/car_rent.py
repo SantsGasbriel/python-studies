@@ -1,0 +1,6 @@
+days = int(input("How many days rented ? "))
+km = float(input("How many km traveled ? "))
+print("R$60.00 per day.")
+print("0.15 per km driven.")
+total_payable = (days * 60) + (km * 0.15)
+print(f"The total payable is {round(total_payable,2)}.")
