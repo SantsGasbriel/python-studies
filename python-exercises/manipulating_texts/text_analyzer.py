@@ -1,0 +1,8 @@
+name = str(input("Type your full name: ")).strip()
+print("Analyzing your name...")
+print(f"Your name in capital letters is {name.upper()}.")
+print(f"Your name in lowercase is {name.lower()}.")
+counter = len(name) - name.count(" ") 
+print(f"Your name has {counter} letters in all.")
+separate_name = name.split()
+print(f"His first name is {separate_name[0]} and he has {len(separate_name[0])} letters.")
